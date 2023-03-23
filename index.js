@@ -1,10 +1,10 @@
 
 const inquirer = require('inquirer'); //import inquirer
 
-const startMenu = require('./lib/promptHandler');
+const startMenu = require('./lib/promptHandler'); //import promptHandler
 
-async function viewMenuOptions() {
+async function viewMenuOptions() { //view menu options is the main function that invokes the application
   await startMenu();
 }
 
-viewMenuOptions();
+viewMenuOptions(); //start the application

@@ -13,8 +13,8 @@ const connectionConfig = {
 };
 
 // Initialize the connection variable
-const dbP = mysqlP.createConnection(connectionConfig);
-const db = mysql.createConnection(connectionConfig);
+const dbP = mysqlP.createConnection(connectionConfig);// this is for promise sql connection
+const db = mysql.createConnection(connectionConfig); //this is for basic sql connection
 
 
 module.exports = {db,
